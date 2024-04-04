@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main-box{
+  margin-top: 50px;
+  padding: 41px;
+  box-shadow:6px 0px 6px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 1px 3px 0 rgba(0, 0, 0, .12);
+  transition: box-shadow .28s cubic-bezier(.4, 0, .2, 1);
+}
+.btn-delete{
+  background-color: red;
+  padding: 5px 30px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+
+}
+.main-btn {
+  border: none;
+  padding: 5px 30px;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.btn-edit{
+  margin-right: 10px;
+  background-color: darkcyan;
+}
+
+.main-top-heading{
+  display: grid;
+  place-items: center;
+}
+.main-save-btn{
+  padding: 3px 20px;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  font-size: 17px;
+  margin-left: 20px;
+}
+.main-wrap{
+  margin: 20px;
+}
